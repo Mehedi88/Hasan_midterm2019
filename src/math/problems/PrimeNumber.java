@@ -12,7 +12,22 @@ public class PrimeNumber {
 		 * Use any databases[MongoDB, Oracle, MySql] to store data and retrieve data.
 		 *
 		 */
+		int n = 2;
+		int m = 10000000;
+		int count = 0;
+		for ( i = 2;i<m; i++){
+			if (i==2) {
+				System.out.println(i);
+				count++;
+			}else{
+				if (is prime(i)){
+					System.out.println(i);
+				}
+			}
+			}
+		}
 
-	}
+	{
 
 }
+

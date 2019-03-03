@@ -2,32 +2,59 @@ Please answer the below core-java Questions:
 
 What is programing language?
 A.
-
-
-
+A programming language is a special language programmers use to develop software programs,
+scripts, or other sets of instructions for computers to execute.
 
 What jdk contains or composed of and define each components?
 A.
-
-
-
-
+Java Development Kit
 
 What is IDE?
-A.
+A. An integrated development environment(IDE)is a software suite that consolidates
+basic tools required to write and test software.
 What are the IDEs available in the market to support java?
+ans: NetBeans,Eclipse, intellij,Android Studio drJava, JDeveloper, JSource
 Explain the entire java life cycle.
 what is class?
+ans: Class is blue Print object of .
 What is object?
+ans: An object is an instance of a class.
 What is the entry point of an application?
+public static void main(String[]args).
 Why main is static?
+ans: Main method in Java is entry point for any core Java program
 Which class is the superclass of all classes?
+Ans: java.lang.Object is a super class of any class by default.
+     Also Object class is a superclass for all interfaces by default
 What is difference between path and classpath variables?
+Ans:Path is an environment variable which is used by the operating system to find the executables.
+Classpath is an environment variable which is used by the Java compiler to find the path.
 What is the difference between an Interface and Abstract class?
-Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Abstract class and interface both are used to achieve abstraction where we can declare the abstract methods.
+Abstract class and interface both can't be instantiated.
+Can you make an Object from an Interface and Abstract class ? if not
 what is Access Specifier?
+ Ans:1) private
+2) default (when no access specifier is specified)
+3) protected
+4) public
+
 What is OOP ? Define each feature of java OOP.
+
+Ans: Object Oriented Programming
+
+1)Abstraction
+2)Encapsulation
+3)Inheritance
+4)Polymorphism
+
 What is Java Package and which package is imported by default?
+ Ans:A package organizes a set of related classes and interfaces. java.lang package is imported by default, no need to
+explicitly import it. Classes in the java.lang package do not need to be imported (the compiler acts like they are
+always imported).
+
+
+
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
